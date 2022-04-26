@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업형 웹사이트 메인화면</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/4835c326cb.js" crossorigin="anonymous"></script>
+    <script defer src="/js/anime.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <!-- header 영역 -->
+    <header id="header">
+        <div class="inner">
+            <h1><a href="index.html">DAMYANOVA</a></h1>
+            <span><a href="join.html">JOIN</a></span>
+        </div>
+    </header>
+    <!-- visual 영역 -->
+    <figure id="visual">
+        <video src="vid/visual1.mp4" autoplay loop muted></video>
+        <div class="inner">
+            <h1>NEW<br />NORMAL</h1>
+        </div>
+    </figure>
+    <!-- nav 영역 -->
+    <section id="nav">
+        <nav class="menuWeb">
+            <article><a href="member.html">MEMBER</a></article>
+            <article><a href="gallery.html">GALLERY</a></article>
+            <article><a href="video.html">VIDEO</a></article>
+            <article><a href="bulletin.html">BULLETIN</a></article>
+            <article><a href="map.html">LOCATION</a></article>
+        </nav>
+
+        <!-- <nav class="menuMO">
+                <h1>
+                    <a href="index.html">Damyanova</a>
+                    <span>DIGITAL NOMAD LIFE</span>
+                </h1>
+                <ul id="gnbMo">
+                    <li><a href="member.html">COMPANY</a></li>
+                    <li><a href="gallery.html">PRODUCTS</a></li>
+                    <li><a href="video.html">COMMERCIAL</a></li>
+                    <li><a href="bulletin.html">COMMUNICATION</a></li>
+                    <li><a href="map.html">CONTACT</a></li>
+                </ul>
+            </nav> -->
+    </section>
+    <!-- gallery 영역 -->
+    <section id="gallery">
+        <div class="inner">
+            <h1>BEST PRODUCTS</h1>
+            <p>Choose your future.</p>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <div class="con">
+                                <img src="img/p1.PNG" alt="상품1이미지">
+                                <h2><a href="gallery.html">Travel Bag</a></h2>
+                                <p>￡79.50</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <div class="con">
+                                <img src="img/p2.PNG" alt="상품2이미지">
+                                <h2><a href="gallery.html">Tea Kettle</a></h2>
+                                <p>￡19.50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <div class="con">
+                                <img src="img/p3.PNG" alt="상품3이미지">
+                                <h2><a href="gallery.html">Wireless Keyboard</a></h2>
+                                <p>￡29.50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <div class="con">
+                                <img src="img/p4.PNG" alt="상품4이미지">
+                                <h2><a href="gallery.html">Travel Journal</a></h2>
+                                <p>￡9.50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <div class="con">
+                                <img src="img/p5.PNG" alt="상품5이미지">
+                                <h2><a href="gallery.html">Laptop</a></h2>
+                                <p>￡269.50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <div class="con">
+                                <img src="img/p6.PNG" alt="상품6이미지">
+                                <h2><a href="gallery.html">Coffee Pot </a></h2>
+                                <p>￡29.50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <div class="con">
+                                <img src="img/p7.PNG" alt="상품7이미지">
+                                <h2><a href="gallery.html">Laptop</a></h2>
+                                <p>￡490.50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <div class="con">
+                                <img src="img/p8.PNG" alt="상품8이미지">
+                                <h2><a href="gallery.html">Boots</a></h2>
+                                <p>￡69.50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <div class="con">
+                                <img src="img/p9.PNG" alt="상품9이미지">
+                                <h2><a href="gallery.html">Tablet</a></h2>
+                                <p>￡99.50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div> 
+            </div>
+            <a href="gallery.html" id="btnMore">VIEW MORE PRODUCTS</a>
+    </section>
+    <!-- identity 영역 -->
+    <section id="identity">
+        <ul class="panel">
+            <li>MAKE</li>
+            <li>YOUR</li>
+            <li>OWN</li>
+            <li>PERSONALITY</li>
+        </ul>
+
+        <ul class="btns">
+            <li class="on"><a href="#">MONO</a></li>
+            <li><a href="#">YELLOW</a></li>
+            <li><a href="#">GREEN</a></li>
+            <li><a href="#">PURPLE</a></li>
+        </ul>
+    </section>
+
+     <!-- video 영역 -->
+    <section id="video">
+        <div class="inner">
+            <div class="wrap">
+                <article>
+                    <video src="vid/cm1.mp4" autoplay loop muted></video>
+                </article>
+                <article>
+                    <h1>COMMERCIAL</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nam eius odio officia eveniet
+                        molestiae.</p>
+                    <a href="video.html">VIDEO BOX</a>
+                </article>
+                <article>
+                    <video src="vid/cm2.mp4" autoplay loop muted></video>
+                </article>
+                <article>
+                    <video src="vid/cm3.mp4" autoplay loop muted></video>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner 영역 -->
+    <section id="banner">
+        <div class="inner">
+            <h1><a href="bulletin.html">LIFE OF NOMAD</a></h1>
+        </div>
+    </section>
+
+    <!-- footer 영역 -->
+    <footer id="footer">
+        <div class="inner">
+            <article>
+                <address>
+                    <a href="map.html">41 Aldsworth close W9 2RB LONDON</a><br/>
+                    tel : +44-7860-169027
+                </address>
+            </article>
+            <article><a href="index.html">DAMYANOVA</a></article>
+            <article><p>Copyright &copy; 2022 DAMYANOVA ALL Right reserved</p></article>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
